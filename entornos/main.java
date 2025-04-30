@@ -1,5 +1,13 @@
 package entornos;
 
+
+/**
+ * @author adrian.vega
+ * @version 1.0
+ * 
+ * Esta clase está creada para poder hacer las operaciones y almacenar los datos que hemos ido generando
+ * tendremos los de las clases Persona_AV, GravedadPlaneta
+ */
 public class main {
 	
 	public static void main(String[] args){

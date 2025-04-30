@@ -1,5 +1,13 @@
 package entornos;
-
+/**
+ * @author adrian.vega
+ * @version 1.0
+ * 
+ * Esta clase está hecha para poder generar los atributos de GravedadPlaneta 
+ */
+/**
+ * 
+ */
 public class AV_GravedadPlaneta {
 	//Generamos los atributos que nos piden con su correspondiente tipo:
 	private int id;
@@ -59,6 +67,15 @@ public class AV_GravedadPlaneta {
 	}
 	
 	//Agregamos el método que hemos extraido anteriormente:
+	
+	
+	/**
+	 * @param masaPersona
+	 * @param gravedadTierra
+	 * @return
+	 * 
+	 * Calcular el peso de la persona en el planeta:
+	 */
 	public static double calcularPeso(double masaPersona, double gravedadTierra) {
 		double pesoTierra= masaPersona * gravedadTierra;
 		return pesoTierra;

@@ -1,5 +1,11 @@
 package entornos;
-
+/**
+ * @author adrian.vega
+ * @version 1.0
+ * 
+ * Esta clase es para poder tener los atributos que le pongamos a las personas que creemos, 
+ * le hemos agregado getter y setter, constructores y string.
+ */
 public class Persona_AV {
 	
 	//creamos los atributos de la clase persona_AV con los datos que nos piden
@@ -72,6 +78,12 @@ public class Persona_AV {
 	
 	//Aquí le metemos el método que anteriormente hemos creado en main.
 	
+	/**
+	 * @param persona1
+	 * @return
+	 * 
+	 * Este método lo que hace es poder calcular el IMC de la persona:
+	 */
 	public static double calcularIMC(Persona_AV persona1) {
 		double masaPersona = persona1.getMasa();
 		return masaPersona;
