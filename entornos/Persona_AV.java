@@ -70,6 +70,11 @@ public class Persona_AV {
 				+ edad + "]";
 	}
 	
+	//Aquí le metemos el método que anteriormente hemos creado en main.
 	
+	public static double calcularIMC(Persona_AV persona1) {
+		double masaPersona = persona1.getMasa();
+		return masaPersona;
+	}
 	
 }

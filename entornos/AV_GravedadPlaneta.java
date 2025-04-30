@@ -58,8 +58,11 @@ public class AV_GravedadPlaneta {
 		return "AV_GravedadPlaneta [id=" + id + ", nombre=" + nombre + ", GravedadPlaneta=" + GravedadPlaneta + "]";
 	}
 	
-	
-	
+	//Agregamos el método que hemos extraido anteriormente:
+	public static double calcularPeso(double masaPersona, double gravedadTierra) {
+		double pesoTierra= masaPersona * gravedadTierra;
+		return pesoTierra;
+	}
 	
 	
 	
